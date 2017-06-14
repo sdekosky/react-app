@@ -1,0 +1,15 @@
+machine:
+  node:
+      version: 4.2.1
+  services:
+    - docker
+
+test:
+  override:
+    - ./node_modules/.bin/jest
+
+deployment:
+  hub:
+    branch: master
+    commands:
+      - $DEPLOY
