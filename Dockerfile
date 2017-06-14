@@ -1,7 +1,7 @@
 # react 14.4 app
 
 FROM node:4.2.1
-MAINTAINER Andrew Grewell <andrewgrewell@gmail.com>
+MAINTAINER Steven Dekosky <steven.dekosky@glidewelldental.com>
 
 ENV NODE_ENV production
 
